@@ -59,5 +59,9 @@ for (var i = 0; i < one.length; i++) {
 
   function one(){
    let screen =  document.getElementById("screen");
-   screen.setAttribute("value", "1")
+   screen.setAttribute("value", "1");
+  }
+  function two(){
+    var screen = document.getElementById("screen");
+    screen.setAttribute("value", "2");
   }
